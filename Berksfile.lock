@@ -1,0 +1,16 @@
+DEPENDENCIES
+  example
+    path: cookbooks/example
+
+GRAPH
+  example (0.0.0)
+    poise-python (~> 1.6.0)
+  poise (2.8.1)
+  poise-archive (1.5.0)
+    poise (~> 2.6)
+  poise-languages (2.1.1)
+    poise (~> 2.5)
+    poise-archive (~> 1.0)
+  poise-python (1.6.0)
+    poise (~> 2.7)
+    poise-languages (~> 2.0)
